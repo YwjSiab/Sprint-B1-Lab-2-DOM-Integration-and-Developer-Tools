@@ -1,0 +1,42 @@
+/* Basic styling for the DOM Manipulation Practice project */
+
+/* Style the overall page */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+/* Layout for the animal section */
+#animalSection {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Style for each animal container */
+.animal {
+    width: 200px;
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+/* Button styling */
+.updateBtn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for buttons */
+.updateBtn:hover {
+    background-color: #0056b3;
+}
+
